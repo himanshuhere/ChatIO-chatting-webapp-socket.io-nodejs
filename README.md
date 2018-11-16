@@ -1,6 +1,25 @@
-This is a small Gaming Project on Vanilla JavaScript.
-Name - Memory Flipping Game.
+# ChatIO Application for chatting online.
 
-A simple and easily understanding game.
+Simple chat app that uses : 
 
-Tech Used : HTML5, CSS3 and Vanilla JS
+
+Node.js
+Socket.io
+
+
+## Version
+1.0.0
+
+
+## Install Dependencies
+```bash
+npm install 
+```
+
+## Run Server
+```bash
+npm start
+```
+
+## Run App
+Open index.html

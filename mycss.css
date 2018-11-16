@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(user3.jpg);
+	background-color: rgba(0,0,0,0.6);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#userFormArea{
+	       width: 44%;
+    height: 44%;
+    background: white;
+    padding: 9%;
+    margin: 7%;
+    margin-left: 25%;
+}
+
+.box h3{
+  text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:70%;
+	height:200px;
+	background:#FFF;
+	margin:40px auto;
+}
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+.effect1{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+
+.effect6
+{
+  	position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect6:before, .effect6:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect6:after
+{
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+#login-btn{
+	float: right;
+    border-radius: 0px;
+    width: 28%;
+    font-weight: bold;
+    font-family: century gothic;
+}
+#username{
+	border-radius: 0px;
+	    font-family: century gothic,sans-serif;
+}
+#label-l{
+	    font-family: century gothic,sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#header-stipe{
+	        width: 13%;
+    background: white;
+    height: 152px;
+    /* margin: 30px; */
+    margin-left: -1.5%;
+    margin-top: 0px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+#typingvar{
+    width: 50%;
+    height: 50%;
+    color: darkgrey;
+    background: white;
+    font-family: century gothic,sans-serif;
+    font-size: 14px;
+}
+
+}
+strong{
+	    color: #504d4d;
+}
+.chatio-heading-div{
+    
+             margin-top: 49px;
+    margin: -58px;
+    /* padding: 13px; */
+    padding: 32px;
+    padding-left: 64px;
+    letter-spacing: 0px;f
+}
+.chatio-heading{
+    font-family: century gothic,sans-serif;
+    font-size: 35px;
+    padding: -4px;
+    margin-top: 29px;
+}
+.chatio-desc{
+
+font-family: century gothic,sans-serif;
+    font-size: 13px;
+    padding: 0px;
+    font-weight: bold;
+    color: #2d5d5d;
+}
+#online{
+	    margin: -17px;
+    width: 69%;
+    /* padding-top: 0%; */
+    margin-top: 5%;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: century gothic,sans-serif;
+    font-weight: bold;
+    background: rgba(0,0,0,0.3);
+    color: #000;
+}
+.x54{
+	    color: white;
+    font-size: 18px;
+}
+#x55{
+	    border-radius: 0px;
+}
+#message{
+	    height: auto;
+    border-radius: 0px;
+}
+#msg-x56{
+	    background: rgba(0,0,0,0.4);
+    padding: 25px;
+    margin-top: 15px;
+    border: 1px solid ghostwhite;
+    font-family: century gothic,sans-serif;
+    color: white;
+}
+#icon{
+            width: 40%;
+    height: 40%;
+    margin-top: 9px;
+    margin-left: 39px;
+}
+#btn-msg{
+	border-radius: 0px;
+    width: 28%;
+    font-weight: bold;
+    font-family: century gothic;
+}
+#chat{
+	color: black;
+	font-family: sans-serif;
+	border-radius: 0px;
+}
