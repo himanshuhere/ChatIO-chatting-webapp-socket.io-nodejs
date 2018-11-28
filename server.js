@@ -16,7 +16,7 @@ io.sockets.on('connection', function(socket){
 	connections.push(socket);
 	console.log('Connected Now : %s sockets connected', connections.length);
 
-	//// disconnect////
+	 //// disconnect////
 	socket.on('disconnect', function(data){
 		
 		users.splice(users.indexOf(socket), 1);
