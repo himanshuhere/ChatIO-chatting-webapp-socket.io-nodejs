@@ -12,7 +12,6 @@ console.log('Server is running now...');
 app.get('/', function(req, res){
 	res.sendFile(__dirname + '/index.html');
 });
-
 io.sockets.on('connection', function(socket){
 	connections.push(socket);
 	console.log('Connected Now : %s sockets connected', connections.length);
