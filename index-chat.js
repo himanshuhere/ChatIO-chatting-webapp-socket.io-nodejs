@@ -7,7 +7,8 @@
             if(socket !== undefined){
                 console.log('Connected to socket...');
             }
-
+		
+		
             //// send messsage
             var $messageform = $('#messageform');
             var $message = $('#message');
