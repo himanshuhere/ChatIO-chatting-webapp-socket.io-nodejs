@@ -26,6 +26,7 @@ io.sockets.on('connection', function(socket){
 
 	});
 
+	
 	//// SEND MESSAGE///////
 	socket.on('send message', function(data){
 		
