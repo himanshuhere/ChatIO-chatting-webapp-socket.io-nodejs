@@ -35,6 +35,7 @@ io.sockets.on('connection', function(socket){
 		
 		io.sockets.emit('new message', {msg: data, user: socket.username});
 	});
+	
 
 
 	//// new user/////
